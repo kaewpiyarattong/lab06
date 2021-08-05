@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context:
-            push: ture
+            push: true
             tags: dto80/331-lab06:latest
       -
         name: prepare the docker-compose run
