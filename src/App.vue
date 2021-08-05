@@ -6,6 +6,9 @@
     <router-link :to="{ name: 'EventList' }">Home</router-link> |
     <router-link :to="{ name: 'About' }">About</router-link>
   </div>
+  <div >
+    <h2>Krittaporn Kaewpiyarat</h2>
+  </div>
 
   <!-- new element -->
   <router-view />
